@@ -10,12 +10,12 @@ class FamousQuotes implements Serializable {
         data = new String[]{"Journey of a thousand miles begins with single step=千里之行，始于足下。",
                 "If you are doing your best,you will not have to worry about failure=如果你竭尽全力，你就不用担心失败。",
                 "There is no royal road to learning=求知无坦途。",
-                "Great works are performed not by strength , but by perseverance.——Samuel Johnson=完成伟大的事业不在于体力，而在于坚韧不拔的毅力。"
+                "Great works are performed not by strength , but by perseverance.=完成伟大的事业不在于体力，而在于坚韧不拔的毅力。"
         };
     }
 }
 
-public class test {
+public class Ser {
     public static void main(String[] args) {
         FamousQuotes quotes = new FamousQuotes();
 

@@ -4,9 +4,7 @@ import java.io.File;
 
 public class PlayMP3 {
     public static void play(String filename) {
-        Thread t = new Thread(() -> {
-            new MP3Player(new File(filename)).play();
-        });
+        Thread t = new Thread(() -> new MP3Player(new File(filename)).play());
         t.start();
     }
 

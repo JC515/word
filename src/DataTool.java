@@ -12,7 +12,7 @@ public class DataTool {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // 连接到MySQL数据库
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/LexicalUniverse?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai", "root", "123456");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/LexicalUniverse?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai", "root", "123456");
 
             // 执行SELECT语句，读取MySQL数据库中的数据
             stmt = conn.createStatement();
